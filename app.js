@@ -130,4 +130,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
     //Fix problem with tally not catching repeat letters (ex. Greece has 3 E's, but tally only tallies for 1 e)
     //Reset number of Hearts when restarting game
     //have to RE ENABLE THE KEYS after disabling them for a new game
-    //hheart takeaways do not work anymore
+    //hheart takeaways do not work anymor
