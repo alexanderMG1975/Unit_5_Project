@@ -59,10 +59,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             newLi.textContent = arrayParam[i];
             if(arrayParam[i] == ' '){
                 //do nothing (if there is not letter in that space)
-                newLi.classList.add('letter');
-                newLi.textContent = 'S';
-                newLi.style = 'color:transparent';
-                newLi.classList.add('show');
+                newLi.classList.add('space');
                 tallyShow = tallyShow +1; 
             }
             else{
